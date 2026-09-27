@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const App = () => {
+const Button= () => {
   const [countNumber,setCountNumber]=useState(0)
 
   const handleIn =()=>{
@@ -28,4 +28,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Button
